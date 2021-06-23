@@ -1,0 +1,78 @@
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "terminal.integrated.rendererType": "dom",
+    "editor.cursorSmoothCaretAnimation": true,
+    "explorer.confirmDelete": false,
+    "python.languageServer": "Pylance",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontFamily": "'MesloLGS Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'MesloLGS Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+    "vscode_vibrancy.type": "dark",
+    // "editor.scrollbar.horizontal": "hidden",
+    // "editor.scrollbar.vertical": "hidden",
+    "editor.overviewRulerBorder": false,
+    "editor.renderControlCharacters": true,
+    // "settings.cycle": [
+    //     {
+    //         "id": "lineNumbers",
+    //         "values": [
+    //             {
+    //                 "editor.lineNumbers": "off",
+    //                 "editor.folding": false,
+    //                 "editor.glyphMargin": false,
+    //                 "editor.renderIndentGuides": false,
+    //             },
+    //             {
+    //                 "editor.lineNumbers": "on",
+    //                 "editor.folding": true,
+    //                 "editor.glyphMargin": true,
+    //                 "editor.renderIndentGuides": true,
+    //             }
+    //         ]
+    //     }
+    // ],
+    // "customizeUI.titleBar": "inline",
+    // "window.titleBarStyle": "native",
+    "errorLens.exclude": [
+        "\"self\" is not accessed",
+        "\"ctx\" is not accessed"
+    ],
+    // "workbench.colorCustomizations": {
+    //     "editor.background": "#1e282e",
+    //     "sideBar.background": "#141e24",
+    // },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.lineNumbers": "on",
+    "editor.folding": false,
+    "editor.glyphMargin": true,
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": false,
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false,
+    "[dart]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "editor.suggest.insertMode": "replace"
+    },
+    "dart.previewFlutterUiGuides": true,
+    "workbench.colorTheme": "Ninja Ui Vibrant",
+    "editor.cursorBlinking": "smooth",
+    "terminal.integrated.cursorBlinking": true,
+    "window.zoomLevel": 1,
+    "terminal.integrated.gpuAcceleration": "off",
+    "editor.formatOnSave": true,
+    "breadcrumbs.enabled": false
+}
