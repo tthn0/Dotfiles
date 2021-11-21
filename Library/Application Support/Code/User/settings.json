@@ -7,7 +7,7 @@
     "explorer.confirmDelete": false,
     "python.languageServer": "Pylance",
     "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
+        "*.ipynb": "jupyter-notebook"
     },
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -71,8 +71,13 @@
     "workbench.colorTheme": "Ninja Ui Vibrant",
     "editor.cursorBlinking": "smooth",
     "terminal.integrated.cursorBlinking": true,
-    "window.zoomLevel": 1,
     "terminal.integrated.gpuAcceleration": "off",
-    "editor.formatOnSave": true,
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "window.zoomLevel": 1,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "errorLens.enabled": false,
+    "editor.formatOnSave": true
 }
